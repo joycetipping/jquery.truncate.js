@@ -1,0 +1,63 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+  <head>
+    <script src='utils/jquery.js' type='text/javascript'></script>
+    <script src='utils/core-0.1.js' type='text/javascript'></script>
+    <script src='jquery.truncate.js' type='text/javascript'></script>
+    <script type='text/javascript'>
+      $(function () {
+        $('#poem').truncate ();
+      });
+    </script>
+
+    <style>
+      body {
+        width: 800px;
+        margin: 0px auto;
+      }
+      #title {
+        margin: 0; 
+        padding: 20px 0 0 0;
+        font: small-caps 50px 'Bitstream Charter', serif;
+      }
+      #author {
+        margin: 0 0 0 10px;
+        font: italic 20px Verdana, sans-serif;
+      }
+      .stanza {
+        margin: 20px 20px 20px 10px;
+        font: 15px 'Trebuchet MS', sans-serif;
+      }
+    </style>
+  </head>
+
+  <body>
+
+    <div id='poem'>
+      <h1 id='title'>Sea Fever</h1>
+      <div id='author'>John Masefield</div>
+
+      <div class='stanza'>
+        <div>I must down to the seas again, to the lonely sea and the sky,</div>
+        <div>And all I ask is a tall ship and a star to steer her by,</div>
+        <div>And the wheel's kick and the wind's song and the white sail's shaking,</div>
+        <div>And a grey mist on the sea's face, and a grey dawn breaking.</div>
+      </div>
+
+      <div class='stanza'>
+        <div>I must down to the seas again, for the call of the running tide</div>
+        <div>Is a wild call and a clear call that may not be denied;</div>
+        <div>And all I ask is a windy day with the white clouds flying,</div>
+        <div>And the flung spray and the blown spume, and the sea-gulls crying.</div>
+      </div>
+
+      <div class='stanza'>
+        <div>I must down to the seas again, to the vagrant gypsy life,</div>
+        <div>To the gull's way and the whale's way where the wind's like a whetted knife;</div>
+        <div>And all I ask is a merry yarn from a laughing fellow-rover</div>
+        <div>And quiet sleep and a sweet dream when the long trick's over.</div>
+      </div>
+    </div>
+
+  </body>
+</html>
