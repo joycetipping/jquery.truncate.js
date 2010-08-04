@@ -8,9 +8,9 @@
         var box_height = settings.lines_visible * settings.line_height_px + 2;
 
 
-        var toggle_link = create ('a').txt (settings.more_text).
-                                       attr ({href: 'javascript:void(0);'}).
-                                       set_class ('toggle-link');
+        var toggle_link = c.cr ('a').add_text (settings.more_text).
+                                     add_attr ({href: 'javascript:void(0);'}).
+                                     set_class ('toggle-link');
 
         $(toggle_link).toggle (function () {$(this).text (settings.less_text);
 
@@ -27,13 +27,13 @@
                                });
 
 
-        var box = create ('div');
-        box.css       ({padding: '10px'}).
+        var box = c.cr ('div');
+        box.add_css   ({padding: '10px'}).
             set_class ('truncate').
-            append    (box.inner = create ('div').txt (text).
-                                                  css ({lineHeight: settings.line_height_px + 'px',
-                                                        height: box_height + 'px',
-                                                        overflow: 'hidden'})).
+            append    (box.inner = c.cr ('div').add_text (text).
+                                                add_css  ({lineHeight: settings.line_height_px + 'px',
+                                                           height: box_height + 'px',
+                                                           overflow: 'hidden'})).
             append    (toggle_link);
 
 
