@@ -19,3 +19,9 @@ are the defaults):
     less_text      : 'less' }
 
 To style the new box, use the class selector ".truncate".
+
+Note: "truncate.js" is the javascript code for the truncate
+plugin. It depends on jquery and my core.js library (available
+here: http://github.com/joycetipping/core.js). For your
+convenience, I've bundled all dependencies into
+"jquery.truncate.js".
