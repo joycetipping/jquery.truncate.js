@@ -1,7 +1,7 @@
 #!/bin/bash
 
-jquery='utils/jquery-1.4.2.js'
-core='utils/core-001.js'
+jquery='jquery-1.4.2.js'
+core='core-001.js'
 plugin='truncate.js'
 
 echo > nl
