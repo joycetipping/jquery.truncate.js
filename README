@@ -19,3 +19,5 @@ are the defaults):
     less_text      : 'less' }
 
 To style the new box, use the class selector ".truncate".
+
+Open index.html for a quick demo.
