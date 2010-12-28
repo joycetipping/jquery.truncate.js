@@ -18,6 +18,6 @@ You can pass in an object with the following options (these are the defaults)::
     less_text      : 'less' }
 
 To style the contents of the truncated box, use class ``truncate`` for the box
-and ``toggle-link`` for the link that toggles the text.
+and ``toggle-link`` for the toggle link.
 
 Open index.html for a quick demo.
