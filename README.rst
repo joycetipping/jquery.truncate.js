@@ -17,6 +17,7 @@ You can pass in an object with the following options (these are the defaults)::
     more_text      : 'more',
     less_text      : 'less' }
 
-To style the new box, use the class selector ".truncate".
+To style the contents of the truncated box, use class ``truncate`` for the box
+and ``toggle-link`` for the link that toggles the text.
 
 Open index.html for a quick demo.
